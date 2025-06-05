@@ -1,53 +1,9 @@
 {
     "configurations": [
         {
-            "name": "GCC",
-            "compileCommands": "${workspaceFolder}/build/compile_commands.json"
-        },
-        {
-            "name": "IAR",
-            "includePath": [
-                "C:/Program Files (x86)/IAR Systems/Embedded Workbench 8.1/rh850/inc",
-                "C:/Program Files (x86)/IAR Systems/Embedded Workbench 8.1/rh850/inc/c",
-                "C:/Program Files (x86)/IAR Systems/Embedded Workbench 8.1/rh850/lib",
-                "${workspaceFolder}/freertos/include",
-                "${workspaceFolder}/freertos/portable/IAR/RH850",
-                "${workspaceFolder}/sample/tests/include",
-                "${workspaceFolder}/sample/include"
-            ],
-            "defines": [
-                "__intrinsic=",
-                "__nounwind=",
-                "__noreturn="
-            ],
-            "forcedInclude": [
-                "${workspaceFolder}/build/iar.predef"
-            ],
-            "intelliSenseMode": "windows-clang-x86"
-        },
-        {
-            "name": "GHS",
-            "includePath": [
-                "C:/ghs/comp_201815/ansi",
-                "C:/ghs/comp_201815/include/v800",
-                "C:/ghs/comp_201815/include/integrity",
-                "${workspaceFolder}/freertos/include",
-                "${workspaceFolder}/freertos/portable/GHS/RH850",
-                "${workspaceFolder}/sample/tests/include",
-                "${workspaceFolder}/sample/include"
-            ],
-            "defines": [
-                "__ghs_c_int__=int"
-            ],
-            "forcedInclude": [
-                "${workspaceFolder}/build/ghs.predef"
-            ],
-            "intelliSenseMode": "windows-clang-arm"
-        },
-        {
             "name": "CCRH",
             "includePath": [
-                "C:/Program Files (x86)/Renesas Electronics/CS+/CC/CC-RH/V2.04.00/inc",
+                "C:/Program Files (x86)/Renesas Electronics/CS+/CC/CC-RH/V2.07.00/inc",
                 "${workspaceFolder}/freertos/include",
                 "${workspaceFolder}/freertos/portable/CCRH/RH850",
                 "${workspaceFolder}/sample/tests/include",

@@ -20,4 +20,4 @@ target_include_directories(${PROJECT_NAME}
     ${CMAKE_CURRENT_LIST_DIR}/tests/include
 )
 
-add_subdirectory(${FREERTOS_TOOLCHAIN})
+add_subdirectory(${CMAKE_CURRENT_LIST_DIR}/CCRH)
